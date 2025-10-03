@@ -11,32 +11,20 @@ Interactive chat loop for a continuous user experience.
 ⚙️ How to Run
 1. Clone the Repository
 
-Bash
-
-git clone https://github.com/YourUsername/ShopAssist-Chatbot.git
+git clone https://github.com/Rachit0609/ShopAssist-Chatbot.git
 cd ShopAssist-Chatbot
-(Remember to replace YourUsername with your actual GitHub username.)
 
-2. Install Dependencies
-Create a requirements.txt file with the following content:
-
-Plaintext
-
-google-generativeai
-pandas
-python-dotenv
-Then, install the dependencies from your terminal:
-
-Bash
+2. Install the dependencies from your terminal:
 
 pip install -r requirements.txt
+
 3. Configure API Key
 Create a file named .env in the project folder and add your Google Gemini API key to it:
 
 GOOGLE_API_KEY=YOUR_API_KEY_HERE
+
 4. Run the Chatbot
 Open the ShopAssist_2.0.ipynb notebook and execute the final cell to start the chat.
 
-Python
 
 run_chatbot()
